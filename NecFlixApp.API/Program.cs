@@ -11,7 +11,6 @@ builder.Services.AddDbContext<MoviesAppDatabaseContext>(options => options.UseSq
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
